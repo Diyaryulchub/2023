@@ -1,0 +1,14 @@
+using System; 
+ 
+namespace AngryBirds 
+{ 
+ public static class zlieptichki
+ { 
+  public static double findangle(double v, double distanciya) 
+  { 
+   double res = 9.8 * distanciya / (v*v); 
+   double angle = 1.0/2*Math.Asin(res); 
+   return angle; 
+  } 
+ } 
+}
